@@ -1,0 +1,89 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: PieChartModel
+  Type: BaseObjectType
+  Children:
+  - Name: cat
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: dog
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: horse
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 1.1416020393371582
+  - Name: bird
+    Type: BaseDataVariableType
+    DataType: SByte
+    Value: 2
+  - Name: beaver
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 1
+  - Name: monkey
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1
+  - Name: zebra
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 2
+  - Name: aligator
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: parrot
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: PieChartModel2
+  Type: BaseObjectType
+  Children:
+  - Name: boolean
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: integer
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 200
+  - Name: integer2
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 49.0
+  - Name: simple_dint
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/simple_dint123456789abcdefghijklmnopqrst"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+- Name: PieModel
+  Id: g=6b44a9aa6aa3823b1abf12dab6ea3a09
+  Type: BaseObjectType
+  Children:
+  - Name: Variable1
+    Id: g=bc897e76b91d6dc9d39e31303c8d2a2a
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 10
+  - Name: Variable2
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 20
+  - Name: Variable3
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 30.329999923706055
+  - Name: Variable4
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 234

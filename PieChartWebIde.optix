@@ -1,0 +1,54 @@
+Project:
+ Name: PieChartWebIde
+ GUID: 3df94b6d5ecd7409eda6399c09b2f2c3
+ ProjectNamespaceIndex: 9
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ ProductVersion: 1.6
+ CoreVersion: 4.0
+ EncryptionVersion: 1
+ EncryptionMode: Secrets
+ Dependencies:
+  2:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 4.0
+  3:
+   Uri: 'urn:FTOptix:UI'
+   Module: FTOptix.UI
+   Version: 16.0
+  4:
+   Uri: 'urn:FTOptix:Retentivity'
+   Module: FTOptix.Retentivity
+   Version: 1.0
+  5:
+   Uri: 'urn:FTOptix:Report'
+   Module: FTOptix.Report
+   Version: 4.1
+  6:
+   Uri: 'urn:FTOptix:HMIProject'
+   Module: FTOptix.HMIProject
+   Version: 6.5
+  7:
+   Uri: 'urn:FTOptix:WebUI'
+   Module: FTOptix.WebUI
+   Version: 1.2
+  8:
+   Uri: 'urn:FTOptix:NativeUI'
+   Module: FTOptix.NativeUI
+   Version: 2.1
+ Statistics:
+  TotalNodeCount: 386
+  Objects: 141
+  ObjectTypes: 1
+  Variables: 244
+  VariableTypes: 0
+  DataTypes: 0
+  Methods: 0
+  References: 6
+  ReferenceTypes: 0
+  Files: 20
+ Nodes:
+ - File: Nodes/PieChartWebIde.yaml
